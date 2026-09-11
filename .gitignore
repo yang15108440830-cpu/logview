@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+build/
+*.spec
+data/prefs.json
+data/services.json
+data/ai_config.json
+data/ai_history.json
+data/logs/
+# release 内 exe 的运行数据（含 ai_config.json 的 api_key，严禁入库）
+release/data/
+release/
